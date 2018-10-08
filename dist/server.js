@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var App_1 = require("../src/App");
+var App_1 = require("./App");
 var app = App_1.default.app;
 var PORT = process.env.PORT || 3450;
 app.listen(PORT, function () { return console.log("Servidor Iniciado na Porta " + PORT); });
